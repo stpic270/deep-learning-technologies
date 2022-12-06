@@ -2,7 +2,9 @@
 
 Ноутбуки:
 Comparison_of_gradients.ipynb - сравнение Adam и Adabound на предобученной VGG16
+
 Matrix_convolution.ipynb - реализация VGG в векторном виде на numpy(Возникает nan)
+
 element-by-element_convolution.ipynb  - реализация VGG со сверткой с поэлементным перебором.
 
 Компьютерное зрение – одна из главных областей теории искусственных интеллектов, активно
