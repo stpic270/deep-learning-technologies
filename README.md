@@ -1,6 +1,7 @@
 В данной работе представлена реализация нейронной сети VGG16 и оптимизатора AdaBound с использованием библиотеки numpy, а также сравнение оптимизаторов AdaBound и классического Adam на датасете Stanford cars с использованием предобученной сети VGG16. 
 
 Ноутбуки:
+
 Comparison_of_gradients.ipynb - сравнение Adam и Adabound на предобученной VGG16
 
 Matrix_convolution.ipynb - реализация VGG в векторном виде на numpy(Возникает nan)
