@@ -82,6 +82,7 @@ Adam — один из самых эффективных алгоритмов о
 ![image](https://user-images.githubusercontent.com/58371161/205675912-26f8aae0-cc1f-4947-9755-3cf2a890a5f6.png)
 ![image](https://user-images.githubusercontent.com/58371161/205675962-af05fdaf-0991-402f-8bd8-2dc1247c4829.png)
 
+Заключение
 
 
 
