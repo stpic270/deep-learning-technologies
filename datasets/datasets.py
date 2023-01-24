@@ -21,7 +21,7 @@ _DESCRIPTION = """\
 RuREBus dataset is tokenized for NER task with sbert_large_nlu_ru  model\
 """
 
-_URL = "https://github.com/stpic270/deep-learning-technologies/new/main"
+_URL = "https://github.com/stpic270/deep-learning-technologies/blob/main/datasets/"
 _URLS = {
     "train": _URL + "train_instances.json",
     "test": _URL + "test_instances.json",
@@ -67,8 +67,8 @@ class Squad(datasets.GeneratorBasedBuilder):
         downloaded_files = dl_manager.download_and_extract(_URLS)
 
         return [
-            datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={"filepath": downloaded_files["train.txt"]}),
-            datasets.SplitGenerator(name=datasets.Split.TEST, gen_kwargs={"filepath": downloaded_files["test.txt"]}),
+            datasets.SplitGenerator(name=datasets.Split.TRAIN, gen_kwargs={"filepath": downloaded_files["train"]}),
+            datasets.SplitGenerator(name=datasets.Split.TEST, gen_kwargs={"filepath": downloaded_files["test"]}),
         ]
 
     def _generate_examples(self, filepath):
