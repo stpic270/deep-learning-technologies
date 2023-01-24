@@ -47,10 +47,10 @@ class Squad(datasets.GeneratorBasedBuilder):
             description=_DESCRIPTION,
             features=datasets.Features(
                 {
-                    "answers": datasets.features.Sequence(
+                    "answers": list(
                         {   "id": datasets.Value("string")
-                            "ner_tags": datasets.features.Sequence(),
-                            "tokens":datasets.features.Sequence(),
+                            "ner_tags": list(),
+                            "tokens":list(),
                         }
                     ),
                 }
@@ -81,7 +81,7 @@ class Squad(datasets.GeneratorBasedBuilder):
             for ner_tags, tokens in zip(dct['target'], dct['sentence']):
                 
                 yield id_, {
-                             f"{name}": datasets.features.Sequence(
+                             "answers": list(
                         {   "id": str(id_)
                             "ner_tags": ner_tags,
                             "tokens": tokens,
