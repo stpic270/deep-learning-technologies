@@ -23,8 +23,8 @@ RuREBus dataset is tokenized for NER task with sbert_large_nlu_ru  model\
 
 _URL = "https://github.com/stpic270/deep-learning-technologies/new/main"
 _URLS = {
-    "train": _URL + "train-v1.1.json",
-    "dev": _URL + "dev-v1.1.json",
+    "train": _URL + "train_instances.pkl",
+    "test": _URL + "test_instances.pkl",
 }
 
 
