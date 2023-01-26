@@ -55,8 +55,11 @@ Work of art - «Гамлет», «Герника», «Изгнание на Ме
 ## Описание ноубуков 
 
 Third_laboratory/Разметка_и_использование_TENER.ipynb - пример разметки текста и его использование с реализацией TENER
+
 Third_laboratory/TENER_full_texts_Adam_Paperspace.ipynb - реализация TENER на готовом тексте, также в конце есть статистика переобучения TENER на 3 текстах
+
 Third_laboratory/RuREBus_sbert.ipynb - реализация sbert на готовом тексте,  в конце есть статистика переобучения sbert на 3 текстах + структура используемой модели
+
 Third_laboratory/RuREBus.py - пример файла для разметки имеющихся данных по hugging face, для работы с ним необходимо в нем изменить _URLS - пути к json файлам
 
 
